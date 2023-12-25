@@ -1,0 +1,44 @@
+site_name: Test Mkdocs
+site_url: https://sreeramvuppala.github.io/mkdocs/
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: cyan
+    accent: cyan
+  features:
+    - navigation.tabs
+    - navigation.integrate
+
+nav:
+  - Home:
+    - Index: "index.md"
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      permalink: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - render_swagger
+  - search
+  - mermaid2
+  - markmap
+extra_css:
+  - /DigitalManufacturing/dmc-execution-docs/styles/custom.css
+  - /DigitalManufacturing/dmc-execution-docs/styles/swagger_dark.css
+
+repo_url: https://github.com/sreeramvuppala/mkdocs
+copyright: Copyright &copy; 2023 - 2025 Sreeram Vuppala
