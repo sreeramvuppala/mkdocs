@@ -12,7 +12,8 @@ theme:
 
 nav:
   - Home:
-    - Index: "index.md"
+    - Utterances: "index.md"
+    - Giscus: "giscus.md"
 
 markdown_extensions:
   - admonition
@@ -37,8 +38,8 @@ plugins:
   - mermaid2
   - markmap
 extra_css:
-  - /DigitalManufacturing/dmc-execution-docs/styles/custom.css
-  - /DigitalManufacturing/dmc-execution-docs/styles/swagger_dark.css
+  - /mkdocs/styles/custom.css
+  - /mkdocs/styles/swagger_dark.css
 
 repo_url: https://github.com/sreeramvuppala/mkdocs
 copyright: Copyright &copy; 2023 - 2025 Sreeram Vuppala
