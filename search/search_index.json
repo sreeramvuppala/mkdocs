@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Index","text":"<p>This is a place holder to test mkdocs and other documentation plugins.</p>"}]}

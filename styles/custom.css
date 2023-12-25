@@ -1,0 +1,23 @@
+
+
+.md-grid {
+    max-width: 90%;
+}
+
+.md-nav {
+    font-size: 0.7rem !important;
+}
+
+.md-tabs__link {
+    font-size: 0.7rem !important;
+}
+
+.md-tabs {
+    font-size: 1rem !important;
+}
+
+.swagger-ui .wrapper {
+    max-width: none !important;
+    margin: none !important;
+    padding: none !important;
+}
