@@ -9,6 +9,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.integrate
+  custom_dir: docs/overrides
 
 nav:
   - Home:
