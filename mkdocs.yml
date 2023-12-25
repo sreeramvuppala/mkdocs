@@ -15,6 +15,7 @@ nav:
   - Home:
     - Utterances: "index.md"
     - Giscus: "giscus.md"
+    - Giscus 2: "newgiscus.md"
 
 markdown_extensions:
   - admonition
